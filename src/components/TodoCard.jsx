@@ -11,9 +11,9 @@ import { Link } from "react-router-dom";
 const TodoCard = ({ data }) => {
   return (
     <div>
-      <Card className="w-[600px] hover:scale-105 transition duration-300 ease-in-out">
+      <Card className="w-[600px] bg-[#F2E5FF] hover:scale-105 transition duration-300 ease-in-out">
         <CardHeader>
-          <CardTitle className="hover:text-pink-700 transition duration-300 ease-in-out">
+          <CardTitle className="hover:text-purple-700 transition duration-300 ease-in-out">
             <Link to={`todo/${data.id}`}>{data.title}</Link>
           </CardTitle>
         </CardHeader>

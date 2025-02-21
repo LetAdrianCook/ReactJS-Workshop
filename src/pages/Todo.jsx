@@ -51,7 +51,7 @@ const Todo = () => {
   return (
     <div>
       <div>
-        <Card className="w-[750px]">
+        <Card className="w-[750px] bg-[#F2E5FF]">
           <CardHeader>
             <CardTitle className="flex justify-between">
               <h1>{todo.title}</h1>{" "}
